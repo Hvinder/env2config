@@ -1,6 +1,6 @@
 {
   "name": "env2config",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "A simple utility to parse your env for better autocomplete",
   "main": "index.js",
   "scripts": {

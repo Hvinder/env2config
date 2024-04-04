@@ -3,7 +3,11 @@
 const initEnvParse = require("./index");
 const yargs = require("yargs");
 
-const { envPath, targetPath, excludePrefixes = "[]" } = yargs.argv;
+const {
+  "env-file": envPath,
+  output: targetPath,
+  "exclude-prefixes": excludePrefixes = "[]",
+} = yargs.argv;
 
 initEnvParse({
   envPath,
