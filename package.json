@@ -1,0 +1,23 @@
+{
+  "name": "env2config",
+  "version": "1.0.0",
+  "description": "A simple utility to parse your env for better autocomplete",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "bin": "./bin.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hvinder/env2config.git"
+  },
+  "author": "hvinder",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/hvinder/env2config/issues"
+  },
+  "homepage": "https://github.com/hvinder/env2config#readme",
+  "dependencies": {
+    "yargs": "^17.7.2"
+  }
+}
